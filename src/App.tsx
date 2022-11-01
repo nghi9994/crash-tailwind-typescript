@@ -5,7 +5,7 @@ import './App.css'
 function App() {
 
   return (
-    <h1 className='text-5xl'>
+    <h1 className='text-5xl font-barlow'>
       Hello World
     </h1>
   )

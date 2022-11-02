@@ -1,15 +1,32 @@
 @tailwind base;
+@tailwind components;
 
 @layer base {
   body {
     @apply font-barlow text-primary;
   }
 
+  h1 {
+    @apply text-5xl !important;
+  }
+
   h3 {
-    @apply text-3xl;
+    @apply text-3xl !important;
   }
 
   h4 {
-    @apply text-2xl;
+    @apply text-2xl !important;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply border-2 border-primary px-4 py-2 rounded text-xl font-semibold uppercase hover:bg-primary hover:text-white;
+  }
+  .badge {
+    @apply flex justify-center items-center bg-cyan-50 rounded-md absolute top-2 left-2 p-2 min-w-[25%];
+  }
+  .card {
+    @apply bg-primary rounded-md shadow-md shadow-primary relative overflow-hidden hover:shadow-lg hover:shadow-primary;
   }
 }

@@ -10,8 +10,17 @@
 6. Run project `yarn dev`
 
 ## Manual
-1. color: `text-black bg-blue border-red shadow-black`
-2. effect: `hover:text-blue rounded shadow-xl`
-3. layout: `grid flex block md:flex relative absolute`
-4. size: `m-2 p-4 min-w-[25%] min-w-[100px]` <!-- m-2: 4px; p-4: 16px -->
-5. text style: `text text-xl text-white font-semibold uppercase`
+1. Color:\
+  `text-black bg-blue border-red shadow-black`
+
+2. Effect:\
+   `hover:text-blue rounded shadow-xl`
+
+3. Layout:\
+   `grid flex block md:flex relative absolute`
+
+4. Size:\
+   `m-2 p-4 min-w-[25%] min-w-[100px]` <!-- m-2: 4px; p-4: 16px -->
+
+5. Text style:\
+   `text text-xl text-white font-semibold uppercase`

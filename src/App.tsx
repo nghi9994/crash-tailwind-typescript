@@ -7,9 +7,9 @@ import Trending from './components/Trending'
 function App() {
 
   return (
-    <div className='grid grid-cols-5'>
+    <div className='grid md:grid-cols-5'>
       <Nav />
-      <main className='col-span-4 bg-cyan-50 py-12 px-6'>
+      <main className='md:col-span-4 bg-cyan-50 py-12 px-6'>
         <AuthButtons />
         <Header />
         <Trending />
